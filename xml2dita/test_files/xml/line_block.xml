@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section>
+    <line_block>
+        <line> A one, two, a one two three four </line>
+        <line> Half a bee, philosophically, <line_block>
+                <line> must, <emphasis> ipso facto , half not be. </emphasis>
+                </line>
+            </line_block>
+        </line>
+        <line> But half the bee has got to be, <line_block>
+                <line>
+                    <emphasis> vis a vis its entity. D'you see? </emphasis>
+                </line>
+            </line_block>
+        </line>
+        <line> But can a bee be said to be <line_block>
+                <line> or not to be an entire bee, <line_block>
+                        <line> when half the bee is not a bee, <line_block>
+                                <line> due to some ancient injury? </line>
+                            </line_block>
+                        </line>
+                    </line_block>
+                </line>
+            </line_block>
+        </line>
+        <line_block>
+            <line> must, <emphasis> ipso facto , half not be. </emphasis>
+            </line>
+        </line_block>
+    </line_block>
+    
+</section>

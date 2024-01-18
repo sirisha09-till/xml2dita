@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document>
+    <section ids="tables" names="tables">
+        <title>Tables</title>
+        <table>
+            <tgroup cols="3">
+                <colspec colwidth="12"></colspec>
+                <colspec colwidth="12"></colspec>
+                <colspec colwidth="11"></colspec>
+                <thead>
+                    <row>
+                        <entry>
+                            <paragraph>Header 1</paragraph>
+                        </entry>
+                        <entry>
+                            <paragraph>Header 2</paragraph>
+                        </entry>
+                        <entry>
+                            <paragraph>Header 3</paragraph>
+                        </entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>
+                            <paragraph>body row 1</paragraph>
+                        </entry>
+                        <entry>
+                            <paragraph>column 2</paragraph>
+                        </entry>
+                        <entry>
+                            <paragraph>column 3</paragraph>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry morecols="1">
+                            <paragraph>body row 2</paragraph>
+                        </entry>
+                        <entry>
+                            <paragraph>Cells may span columns.</paragraph>
+                        </entry>
+                        <entry morecols="1">
+                            <paragraph>Cells may span columns.</paragraph>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>
+                            <paragraph>body row 3</paragraph>
+                        </entry>
+                        <entry morerows="1">
+                            <paragraph>Cells may
+                                span rows.</paragraph>
+                        </entry>
+                        <entry morerows="1">
+                            <bullet_list bullet="-">
+                                <list_item>
+                                    <paragraph>Cells</paragraph>
+                                </list_item>
+                                <list_item>
+                                    <paragraph>contain</paragraph>
+                                </list_item>
+                                <list_item>
+                                    <paragraph>blocks.</paragraph>
+                                </list_item>
+                            </bullet_list>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>
+                            <paragraph>body row 4</paragraph>
+                        </entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        <table>
+            <tgroup cols="3">
+                <colspec colwidth="5"></colspec>
+                <colspec colwidth="5"></colspec>
+                <colspec colwidth="6"></colspec>
+                <thead>
+                    <row>
+                        <entry morecols="1">
+                            <paragraph>Inputs</paragraph>
+                        </entry>
+                        <entry>
+                            <paragraph>Output</paragraph>
+                        </entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>
+                            <paragraph>A</paragraph>
+                        </entry>
+                        <entry>
+                            <paragraph>B</paragraph>
+                        </entry>
+                        <entry>
+                            <paragraph>A or B</paragraph>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>
+                            <paragraph>False</paragraph>
+                        </entry>
+                        <entry>
+                            <paragraph>False</paragraph>
+                        </entry>
+                        <entry>
+                            <paragraph>False</paragraph>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>
+                            <paragraph>True</paragraph>
+                        </entry>
+                        <entry>
+                            <paragraph>False</paragraph>
+                        </entry>
+                        <entry>
+                            <paragraph>True</paragraph>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>
+                            <paragraph>False</paragraph>
+                        </entry>
+                        <entry>
+                            <paragraph>True</paragraph>
+                        </entry>
+                        <entry>
+                            <paragraph>True</paragraph>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>
+                            <paragraph>True</paragraph>
+                        </entry>
+                        <entry>
+                            <paragraph>True</paragraph>
+                        </entry>
+                        <entry>
+                            <paragraph>True</paragraph>
+                        </entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </section>
+</document>

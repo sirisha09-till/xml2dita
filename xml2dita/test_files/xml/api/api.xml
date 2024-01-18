@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document>
+    <section ids="api-reference" names="api\ reference">
+        <title>API Reference</title>
+        <raw format="html" xml:space="preserve">&lt;script type="text/javascript"&gt;
+ window.location.href = "rtos/rtos.html"
+ &lt;/script&gt;</raw>
+        <compound classes="toctree-wrapper">
+        </compound>
+    </section>
+</document>

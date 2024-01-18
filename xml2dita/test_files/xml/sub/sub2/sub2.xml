@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document>
+    <section ids="sub2" names="sub2">
+        <title>Sub2</title>
+        <compound classes="toctree-wrapper">
+            <compact_paragraph toctree="True">
+                <bullet_list>
+                    <list_item classes="toctree-l1">
+                        <compact_paragraph classes="toctree-l1">
+                            <reference anchorname="" internal="True" refuri="sub2-1"
+                                >Sub2-1</reference>
+                        </compact_paragraph>
+                    </list_item>
+                </bullet_list>
+            </compact_paragraph>
+        </compound>
+    </section>
+</document>

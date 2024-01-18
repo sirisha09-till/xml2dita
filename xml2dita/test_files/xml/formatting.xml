@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document>
+    <section ids="formatting-examples" names="formatting\ examples">
+        <title>Formatting examples</title>
+        <field_list>
+            <field>
+                <field_name>Author</field_name>
+                <field_body>
+                    <enumerated_list enumtype="upperalpha" prefix="" start="10" suffix=".">
+                        <list_item>
+                            <paragraph>Random Hacker - Topic Writer</paragraph>
+                        </list_item>
+                    </enumerated_list>
+                </field_body>
+            </field>
+            <field>
+                <field_name>Contact</field_name>
+                <field_body>
+                    <paragraph>
+                        <reference refuri="mailto:jrh@example.com">jrh@example.com</reference>
+                    </paragraph>
+                </field_body>
+            </field>
+            <field>
+                <field_name>Date</field_name>
+                <field_body>
+                    <paragraph>2002-08-18</paragraph>
+                </field_body>
+            </field>
+            <field>
+                <field_name>Status</field_name>
+                <field_body>
+                    <paragraph>Work In Progress</paragraph>
+                </field_body>
+            </field>
+            <field>
+                <field_name>Version</field_name>
+                <field_body>
+                    <paragraph>1</paragraph>
+                </field_body>
+            </field>
+            <field>
+                <field_name>Filename</field_name>
+                <field_body>
+                    <paragraph>$RCSfile$</paragraph>
+                </field_body>
+            </field>
+            <field>
+                <field_name>Copyright</field_name>
+                <field_body>
+                    <paragraph>This document has been placed in the public domain.</paragraph>
+                </field_body>
+            </field>
+        </field_list>
+        <meta content="An amusing story" lang="en" name="description"> </meta>
+        <meta content="Un histoire amusant" lang="fr" name="description"> </meta>
+        <comment xml:space="preserve">This is a comment about the document.</comment>
+        <section ids="text-formatting" names="text\ formatting">
+            <title>Text formatting</title>
+            <paragraph>Here is some <emphasis>emphasis</emphasis> text that should be in
+                italics.</paragraph>
+            <paragraph>And some <strong>strong emphasis</strong> text that should be in bold
+                font.</paragraph>
+            <math_block docname="formatting" label="True" nowrap="False" number="True" xml:space="preserve">$α_t(i) = P(O_1)</math_block>
+            <paragraph>Some <subscript>subscript</subscript> text</paragraph>
+            <paragraph>And some <superscript>superscript</superscript> text</paragraph>
+            <paragraph>An example of using <inline classes="custom">interpreted
+                text</inline></paragraph>
+            <paragraph>This is a reference to a footnote <footnote_reference docname="formatting"
+                    ids="id1" refid="id2">1</footnote_reference></paragraph>
+            <footnote backrefs="id1" docname="formatting" ids="id2" names="1">
+                <label>1</label>
+                <paragraph>This is a footnote.</paragraph>
+            </footnote>
+            <paragraph>A very nice formula:</paragraph>
+            <math_block docname="formatting" label="True" nowrap="False" number="True" xml:space="preserve">α_t(i) = P(O_1, O_2, … O_t, q_t = S_i λ)</math_block>
+        </section>
+        <section ids="lists" names="lists">
+            <title>Lists</title>
+            <paragraph>This is a unordered list:</paragraph>
+            <math_block docname="formatting" label="True" nowrap="False" number="True" xml:space="preserve">α_t(i) = P(O_1)$</math_block>
+            <bullet_list bullet="-">
+                <list_item>
+                    <paragraph>unordered 1</paragraph>
+                </list_item>
+                <list_item>
+                    <paragraph>unordered 2</paragraph>
+                </list_item>
+                <list_item>
+                    <paragraph>unordered 3</paragraph>
+                </list_item>
+            </bullet_list>
+            <paragraph>This is an ordered list:</paragraph>
+            <enumerated_list enumtype="arabic" prefix="" suffix=".">
+                <list_item>
+                    <paragraph>ordered 1</paragraph>
+                </list_item>
+                <list_item>
+                    <paragraph>ordered 2</paragraph>
+                </list_item>
+                <list_item>
+                    <paragraph>ordered 3</paragraph>
+                </list_item>
+            </enumerated_list>
+            <paragraph>Mix 1:</paragraph>
+            <enumerated_list enumtype="arabic" prefix="" suffix=".">
+                <list_item>
+                    <paragraph>ordered 1</paragraph>
+                    <bullet_list bullet="-">
+                        <list_item>
+                            <paragraph>subitem 1 unordered</paragraph>
+                        </list_item>
+                        <list_item>
+                            <paragraph>subitem 1 unordered</paragraph>
+                        </list_item>
+                    </bullet_list>
+                </list_item>
+                <list_item>
+                    <paragraph>ordered 2</paragraph>
+                    <bullet_list bullet="-">
+                        <list_item>
+                            <paragraph>subitem 1 unordered</paragraph>
+                        </list_item>
+                        <list_item>
+                            <paragraph>subitem 1 unordered</paragraph>
+                        </list_item>
+                    </bullet_list>
+                </list_item>
+                <list_item>
+                    <paragraph>ordered 3</paragraph>
+                </list_item>
+            </enumerated_list>
+            <paragraph>Mix 2:</paragraph>
+            <bullet_list bullet="-">
+                <list_item>
+                    <paragraph>unordered 1</paragraph>
+                    <enumerated_list enumtype="arabic" prefix="" suffix=".">
+                        <list_item>
+                            <paragraph>ordered 1</paragraph>
+                        </list_item>
+                        <list_item>
+                            <paragraph>ordered 2</paragraph>
+                        </list_item>
+                    </enumerated_list>
+                </list_item>
+                <list_item>
+                    <paragraph>unordered 2</paragraph>
+                    <enumerated_list enumtype="arabic" prefix="" suffix=".">
+                        <list_item>
+                            <paragraph>ordered 1</paragraph>
+                        </list_item>
+                        <list_item>
+                            <paragraph>ordered 2</paragraph>
+                        </list_item>
+                    </enumerated_list>
+                </list_item>
+                <list_item>
+                    <paragraph>unordered 3</paragraph>
+                    <enumerated_list enumtype="arabic" prefix="" suffix=".">
+                        <list_item>
+                            <paragraph>ordered 1</paragraph>
+                        </list_item>
+                        <list_item>
+                            <paragraph>ordered 2</paragraph>
+                        </list_item>
+                    </enumerated_list>
+                </list_item>
+            </bullet_list>
+        </section>
+        <section ids="definition-list-and-classifier" names="definition\ list\ and\ classifier">
+            <title>Definition list and classifier</title>
+            <definition_list>
+                <definition_list_item>
+                    <term>name</term>
+                    <classifier>string</classifier>
+                    <definition>
+                        <paragraph>Customer name.</paragraph>
+                    </definition>
+                </definition_list_item>
+                <definition_list_item>
+                    <term>i</term>
+                    <classifier>int</classifier>
+                    <definition>
+                        <paragraph>Temporary index variable.</paragraph>
+                    </definition>
+                </definition_list_item>
+            </definition_list>
+        </section>
+        <section ids="option-list" names="option\ list">
+            <title>Option list</title>
+            <option_list>
+                <option_list_item>
+                    <option_group>
+                        <option>
+                            <option_string>-a</option_string>
+                        </option>
+                    </option_group>
+                    <description>
+                        <paragraph>command-line option “a”</paragraph>
+                    </description>
+                </option_list_item>
+                <option_list_item>
+                    <option_group>
+                        <option>
+                            <option_string>-1</option_string>
+                            <option_argument delimiter=" ">file</option_argument>
+                        </option>
+                        <option>
+                            <option_string>--one</option_string>
+                            <option_argument delimiter="=">file</option_argument>
+                        </option>
+                        <option>
+                            <option_string>--two</option_string>
+                            <option_argument delimiter=" ">file</option_argument>
+                        </option>
+                    </option_group>
+                    <description>
+                        <paragraph>Multiple options with arguments.</paragraph>
+                    </description>
+                </option_list_item>
+            </option_list>
+        </section>
+        <section ids="code-blocks" names="code\ blocks">
+            <title>Code blocks</title>
+            <paragraph>General block:</paragraph>
+            <block_quote>
+                <paragraph>Some code in a block that should be in a code block and monospace
+                    font</paragraph>
+            </block_quote>
+            <paragraph>Doctest block:</paragraph>
+            <doctest_block classes="doctest" xml:space="preserve">&gt;&gt;&gt; print 'this is a Doctest block'
+this is a Doctest block</doctest_block>
+        </section>
+        <section ids="notes" names="notes">
+            <title>Notes</title>
+            <admonition classes="admonition-tip">
+                <title>tip</title>
+                <paragraph>This is a tip</paragraph>
+            </admonition>
+            <admonition classes="admonition-danger">
+                <title>DANGER</title>
+                <paragraph>Danger Will Robinson</paragraph>
+            </admonition>
+            <admonition classes="admonition-attention">
+                <title>attention</title>
+                <paragraph>Achtung!!</paragraph>
+            </admonition>
+            <admonition classes="admonition-note">
+                <title>note</title>
+                <paragraph>This is a note</paragraph>
+            </admonition>
+            <admonition classes="admonition-other">
+                <title>other</title>
+                <paragraph>This is an other note</paragraph>
+            </admonition>
+            <attention>
+                <paragraph>All your base are belong to us.</paragraph>
+            </attention>
+            <danger>
+                <paragraph>Dangerous!</paragraph>
+            </danger>
+            <tip>
+                <paragraph>It’s a tip around here!</paragraph>
+            </tip>
+            <note>
+                <paragraph>Another note.</paragraph>
+            </note>
+            <error>
+                <paragraph>An error note</paragraph>
+            </error>
+            <caution>
+                <paragraph>A caution note.</paragraph>
+            </caution>
+            <hint>
+                <paragraph>Psst!</paragraph>
+            </hint>
+            <important>
+                <paragraph>This is important!</paragraph>
+            </important>
+            <warning>
+                <paragraph>This is your second and last warning!</paragraph>
+            </warning>
+        </section>
+        <section ids="other-content-types" names="other\ content\ types">
+            <title>Other content types</title>
+            <block_quote classes="epigraph">
+                <paragraph>No matter where you go, there you are.</paragraph>
+                <attribution>Buckaroo Banzai (attribution)</attribution>
+            </block_quote>
+        </section>
+        <section ids="links" names="links">
+            <title>Links</title>
+            <paragraph>Citation references, like <reference ids="id3" internal="True"
+                    refid="cit2002"><inline>[CIT2002]</inline></reference>. Note that citations may
+                get rearranged, e.g., to the bottom of the “page”.</paragraph>
+            <citation backrefs="id3" docname="formatting" ids="cit2002" names="cit2002">
+                <label support_smartquotes="False">CIT2002</label>
+                <paragraph>A citation (as often used in journals).</paragraph>
+            </citation>
+            <paragraph>Internal cross-references, like <reference name="example" refid="example"
+                    >example</reference>.</paragraph>
+            <target refid="example"/>
+            <paragraph ids="example" names="example">This is an example crossreference
+                target</paragraph>
+            <paragraph><reference name="Python" refuri="http://www.python.org/">Python</reference>
+                is <reference anonymous="1" name="my favourite programming language"
+                    refuri="http://www.python.org/">my favourite programming
+                language</reference>.</paragraph>
+            <target ids="python" names="python" refuri="http://www.python.org/"/>
+            <target anonymous="1" ids="id4" refuri="http://www.python.org/"/>
+        </section>
+        <section ids="titles-are-targets-too" names="titles\ are\ targets,\ too">
+            <title>Titles are targets, too</title>
+            <paragraph>Implict references, like <reference name="Links" refid="links"
+                    >Links</reference>.</paragraph>
+            <paragraph>Paragraph 1 transitions to the next paragraph.</paragraph>
+            <transition/>
+            <paragraph>Paragraph 2 is after the transition.</paragraph>
+        </section>
+    </section>
+</document>
